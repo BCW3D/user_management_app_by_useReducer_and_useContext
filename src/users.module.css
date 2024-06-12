@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article {
+  text-align: center;
+  min-width: 300px;
+  min-height: 20px;
+  background-color: rgb(107, 91, 72);
+  margin: 5px;
+  padding: 13px;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.btnDelete {
+  background-color: red;
+  color: #fff;
+}
+
+.btnEdit {
+  background-color: aquamarine;
+}
+
+.input {
+  height: 26px;
+  margin: 2px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
